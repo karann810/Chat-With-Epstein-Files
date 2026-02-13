@@ -1,0 +1,11 @@
+datasets
+sentence_transformers
+faiss-cpu
+groq
+python-dotenv
+streamlit
+openai
+hugchat
+streamlit-chat
+streamlit-extras
+pickle

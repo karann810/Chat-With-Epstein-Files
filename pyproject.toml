@@ -1,0 +1,19 @@
+[project]
+name = "chatwithepsteinflies"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.5.0",
+    "faiss-cpu>=1.13.2",
+    "groq>=1.0.0",
+    "hugchat>=0.5.1",
+    "ipykernel>=7.2.0",
+    "openai>=2.20.0",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.2",
+    "streamlit>=1.54.0",
+    "streamlit-chat>=0.1.1",
+    "streamlit-extras>=0.7.8",
+]
