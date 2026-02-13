@@ -8,4 +8,4 @@ openai
 hugchat
 streamlit-chat
 streamlit-extras
-pickle
+gdown
