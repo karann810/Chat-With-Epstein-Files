@@ -14,13 +14,13 @@ import gdown
 # ---------------- DOWNLOAD IF NOT EXISTS ----------------
 def download_file(file_id, output):
     if not os.path.exists(output):
-        url = f"https://drive.google.com/uc?id={file_id}"
+        url = f"https://drive.google.com/uc?export=download&id={file_id}"
         gdown.download(url, output, quiet=False)
 
 
 # 🔥 PUT YOUR IDS HERE
-CHUNKS_ID = "https://drive.google.com/file/d/136fGKb8PXW73ock0of5jl8zONN1uQ-Kl/view?usp=sharing"
-EMBEDDINGS_ID = "https://drive.google.com/file/d/1grISb-FwRjtZokoqDd_vkD6lQrkwImyz/view?usp=sharing"
+CHUNKS_ID = "136fGKb8PXW73ock0of5jl8zONN1uQ-Kl"
+EMBEDDINGS_ID = "1grISb-FwRjtZokoqDd_vkD6lQrkwImyz"
 
 download_file(CHUNKS_ID, "chunks.pkl")
 download_file(EMBEDDINGS_ID, "embeddings.npy")
